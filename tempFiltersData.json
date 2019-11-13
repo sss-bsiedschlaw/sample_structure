@@ -1,0 +1,3231 @@
+{
+  "attributeDictionary": {
+    "attributes": [
+      {
+        "key": "FlightNumber",
+        "label": {
+          "default": "Flight Number",
+          "criteriaTree": "Flight Number",
+          "column": "Flight Number"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Error",
+          "Observation",
+          "Threat"
+        ]
+      },
+      {
+        "key": "AircraftType",
+        "label": {
+          "default": "MWS",
+          "criteriaTree": "MWS",
+          "column": "MWS"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Error",
+          "Observation",
+          "Threat"
+        ]
+      },
+      {
+        "key": "DepartAirport",
+        "label": {
+          "default": "Departure Airport",
+          "criteriaTree": "Departure Airport",
+          "column": "Departure Airport"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "ArrivalAirport",
+        "label": {
+          "default": "Arrival Airport",
+          "criteriaTree": "Arrival Airport",
+          "column": "Arrival Airport"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PilotFlyingTakeoff",
+        "label": {
+          "default": "Pilot Flying Takeoff",
+          "criteriaTree": "Pilot Flying Takeoff",
+          "column": "Pilot Flying Takeoff"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PilotFlyingLanding",
+        "label": {
+          "default": "Pilot Flying Landing",
+          "criteriaTree": "Pilot Flying Landing",
+          "column": "Pilot Flying Landing"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "FlightTime",
+        "label": {
+          "default": "Fight Time",
+          "criteriaTree": "Fight Time",
+          "column": "Fight Time"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "LateDeparture",
+        "label": {
+          "default": "Late Departure",
+          "criteriaTree": "Late Departure",
+          "column": "Late Departure"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "CockpitCrewComposition",
+        "label": {
+          "default": "Cockpit Crew Composition",
+          "criteriaTree": "Cockpit Crew Composition",
+          "column": "Cockpit Crew Composition"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "CrewDutyTime",
+        "label": {
+          "default": "Crew Duty Time (# of hours from showtime to cargo offload)",
+          "criteriaTree": "Crew Duty Time (# of hours from showtime to cargo offload)",
+          "column": "Crew Duty Time (# of hours from showtime to cargo offload)"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "MissionAspectAeromedical",
+        "label": {
+          "default": "Mission aspect: Aeromedical evacuation?",
+          "criteriaTree": "Mission aspect: Aeromedical evacuation?",
+          "column": "Mission aspect: Aeromedical evacuation?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "MissionAspectAirRefuel",
+        "label": {
+          "default": "Mission aspect:  Air refueling?",
+          "criteriaTree": "Mission aspect:  Air refueling?",
+          "column": "Mission aspect:  Air refueling?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "MissionAspectPassengers",
+        "label": {
+          "default": "Mission aspect: Passengers on board?",
+          "criteriaTree": "Mission aspect: Passengers on board?",
+          "column": "Mission aspect: Passengers on board?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "MissionAspectCargo",
+        "label": {
+          "default": "Mission aspect:  Cargo on board?",
+          "criteriaTree": "Mission aspect:  Cargo on board?",
+          "column": "Mission aspect:  Cargo on board?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "MissionAspectFormationFly",
+        "label": {
+          "default": "Mission aspect:  Formation flying?",
+          "criteriaTree": "Mission aspect:  Formation flying?",
+          "column": "Mission aspect:  Formation flying?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "NumberAREvents",
+        "label": {
+          "default": "Number of AR events",
+          "criteriaTree": "Number of AR events",
+          "column": "Number of AR events"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "UCC",
+        "label": {
+          "default": "UCC?",
+          "criteriaTree": "UCC?",
+          "column": "UCC?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "AORFlight",
+        "label": {
+          "default": "AOR Flight?",
+          "criteriaTree": "AOR Flight?",
+          "column": "AOR Flight?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "FlightCrewNumber",
+        "label": {
+          "default": "Flight Crew Number",
+          "criteriaTree": "Flight Crew Number",
+          "column": "Flight Crew Number"
+        },
+        "jsonDataType": "Number",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "USAFYearsExperienceAC",
+        "label": {
+          "default": "AC: USAF years experience",
+          "criteriaTree": "AC: USAF years experience",
+          "column": "AC: USAF years experience"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "HoursInMWSAC",
+        "label": {
+          "default": "AC: Hours in Current MWS",
+          "criteriaTree": "AC: Hours in Current MWS",
+          "column": "AC: Hours in Current MWS"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "USAFYearsExperienceAC",
+        "label": {
+          "default": "CP: USAF years experience",
+          "criteriaTree": "CP: USAF years experience",
+          "column": "CP: USAF years experience"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "HoursInCurrentMWSCP",
+        "label": {
+          "default": "CP: Hours in Current MWS",
+          "criteriaTree": "CP: Hours in Current MWS",
+          "column": "CP: Hours in Current MWS"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "USAFYearsExperienceFE",
+        "label": {
+          "default": "FE: USAF years experience",
+          "criteriaTree": "FE: USAF years experience",
+          "column": "FE: USAF years experience"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "HoursInCurrentMWSFE",
+        "label": {
+          "default": "FE: Hours in Current MWS",
+          "criteriaTree": "FE: Hours in Current MWS",
+          "column": "FE: Hours in Current MWS"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "LandingArrivalWeather",
+        "label": {
+          "default": "LandingArrivalWeather",
+          "criteriaTree": "LandingArrivalWeather",
+          "column": "LandingArrivalWeather"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "LandingApproachType",
+        "label": {
+          "default": "Approach Type",
+          "criteriaTree": "Approach Type",
+          "column": "Approach Type"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "BriefBeforeTod",
+        "label": {
+          "default": "Brief Before TODd?",
+          "criteriaTree": "Brief Before TODd?",
+          "column": "Brief Before TODd?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "LandingDescendAtTheFmcTodPoint",
+        "label": {
+          "default": "Descent at the FMC TOD point?",
+          "criteriaTree": "Descent at the FMC TOD point?",
+          "column": "Descent at the FMC TOD point?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "BriefLandingRunway",
+        "label": {
+          "default": "Brief landing runway?",
+          "criteriaTree": "Brief landing runway?",
+          "column": "Brief landing runway?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "LandingTouchdownPointFeet",
+        "label": {
+          "default": "Landing Touchdown Point (feet)",
+          "criteriaTree": "Landing Touchdown Point (feet)",
+          "column": "Landing Touchdown Point (feet)"
+        },
+        "jsonDataType": "Number",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PredepartNarrative",
+        "label": {
+          "default": "Predepart: Narrative Text Search",
+          "criteriaTree": "Predepart: Narrative Text Search",
+          "column": "Predepart: Narrative Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartSopBriefing",
+        "label": {
+          "default": "Predepart: SOP Briefing",
+          "criteriaTree": "Predepart: SOP Briefing",
+          "column": "Predepart: SOP Briefing"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartPlansStated",
+        "label": {
+          "default": "Predepart: Plans Stated",
+          "criteriaTree": "Predepart: Plans Stated",
+          "column": "Predepart: Plans Stated"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartContingencyManagement",
+        "label": {
+          "default": "Predepart: Contingency Management",
+          "criteriaTree": "Predepart: Contingency Management",
+          "column": "Predepart: Contingency Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartMonitorCrossCheck",
+        "label": {
+          "default": "Predepart: Monitor/Cross-Check",
+          "criteriaTree": "Predepart: Monitor/Cross-Check",
+          "column": "Predepart: Monitor/Cross-Check"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartWorkloadManagement",
+        "label": {
+          "default": "Predepart: Workload Management",
+          "criteriaTree": "Predepart: Workload Management",
+          "column": "Predepart: Workload Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartAutomationManagement",
+        "label": {
+          "default": "Predepart: Automation Management",
+          "criteriaTree": "Predepart: Automation Management",
+          "column": "Predepart: Automation Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartRunwayManagement",
+        "label": {
+          "default": "Predepart: Taxiway/Runway Management",
+          "criteriaTree": "Predepart: Taxiway/Runway Management",
+          "column": "Predepart: Taxiway/Runway Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartEvaluationOfPlans",
+        "label": {
+          "default": "Predepart: Evaluation of Plans",
+          "criteriaTree": "Predepart: Evaluation of Plans",
+          "column": "Predepart: Evaluation of Plans"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "PreDepartInquiry",
+        "label": {
+          "default": "Predepart: Inquiry",
+          "criteriaTree": "Predepart: Inquiry",
+          "column": "Predepart: Inquiry"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "TakeoffClimbAutomationManagement",
+        "label": {
+          "default": "Takeoff/Climb: Automation Management",
+          "criteriaTree": "Takeoff/Climb: Automation Management",
+          "column": "Takeoff/Climb: Automation Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "TakeoffClimbEvaluationOfPlans",
+        "label": {
+          "default": "Takeoff/Climb: Evaluation of Plans",
+          "criteriaTree": "Takeoff/Climb: Evaluation of Plans",
+          "column": "Takeoff/Climb: Evaluation of Plans"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "TakeoffClimbInquiry",
+        "label": {
+          "default": "Takeoff/Climb: Inquiry",
+          "criteriaTree": "Takeoff/Climb: Inquiry",
+          "column": "Takeoff/Climb: Inquiry"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "TakeoffClimbMonitorCrossCheck",
+        "label": {
+          "default": "Takeoff/Climb: Monitor/Cross-Check",
+          "criteriaTree": "Takeoff/Climb: Monitor/Cross-Check",
+          "column": "Takeoff/Climb: Monitor/Cross-Check"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "TakeoffClimbNarrative",
+        "label": {
+          "default": "Takeoff/Climb: Narrative Text Search",
+          "criteriaTree": "Takeoff/Climb: Narrative Text Search",
+          "column": "Takeoff/Climb: Narrative Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "TakeoffClimbWorkloadManagement",
+        "label": {
+          "default": "Takeoff/Climb: Workload Management",
+          "criteriaTree": "Takeoff/Climb: Workload Management",
+          "column": "Takeoff/Climb: Workload Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "CruiseNarrative",
+        "label": {
+          "default": "Cruise: Narrative Text Search",
+          "criteriaTree": "Cruise: Narrative Text Search",
+          "column": "Cruise: Narrative Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachAutomationManagement",
+        "label": {
+          "default": "Descent/Approach: Automation Management",
+          "criteriaTree": "Descent/Approach: Automation Management",
+          "column": "Descent/Approach: Automation Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachAutomationManagement",
+        "label": {
+          "default": "Descent/Approach: Contingency Management",
+          "criteriaTree": "Descent/Approach: Contingency Management",
+          "column": "Descent/Approach: Contingency Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachEvaluationOfPlans",
+        "label": {
+          "default": "Descent/Approach: Evaluation of Plans",
+          "criteriaTree": "Descent/Approach: Evaluation of Plans",
+          "column": "Descent/Approach: Evaluation of Plans"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachInquiry",
+        "label": {
+          "default": "Descent/Approach: Inquiry",
+          "criteriaTree": "Descent/Approach: Inquiry",
+          "column": "Descent/Approach: Inquiry"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachMonitorCrossCheck",
+        "label": {
+          "default": "Descent/Approach: Monitor/Cross-Check",
+          "criteriaTree": "Descent/Approach: Monitor/Cross-Check",
+          "column": "Descent/Approach: Monitor/Cross-Check"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachNarrativeTextSearch",
+        "label": {
+          "default": "Descent/Approach: Narrative Text Search",
+          "criteriaTree": "Descent/Approach: Narrative Text Search",
+          "column": "Descent/Approach: Narrative Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachPlansStated",
+        "label": {
+          "default": "Descent/Approach: Plans Stated",
+          "criteriaTree": "Descent/Approach: Plans Stated",
+          "column": "Descent/Approach: Plans Stated"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachRunwayManagement",
+        "label": {
+          "default": "Descent/Approach: Taxiway/Runway Management",
+          "criteriaTree": "Descent/Approach: Taxiway/Runway Management",
+          "column": "Descent/Approach: Taxiway/Runway Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachSopBriefing",
+        "label": {
+          "default": "Descent/Approach: SOP Briefing",
+          "criteriaTree": "Descent/Approach: SOP Briefing",
+          "column": "Descent/Approach: SOP Briefing"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "DescentApproachWorkloadManagement",
+        "label": {
+          "default": "Descent/Approach: Workload Management",
+          "criteriaTree": "Descent/Approach: Workload Management",
+          "column": "Descent/Approach: Workload Management"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "OverallCaptainLeadership",
+        "label": {
+          "default": "Overall: Leadership",
+          "criteriaTree": "Overall: Leadership",
+          "column": "Overall: Leadership"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "OverallCommunicationEnvironment",
+        "label": {
+          "default": "Overall: Communication Environment",
+          "criteriaTree": "Overall: Communication Environment",
+          "column": "Overall: Communication Environment"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "OverallNarrative",
+        "label": {
+          "default": "Overall: Narrative Text Search",
+          "criteriaTree": "Overall: Narrative Text Search",
+          "column": "Overall: Narrative Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "OverallDebriefType",
+        "label": {
+          "default": "Overall: Debrief Type",
+          "criteriaTree": "Overall: Debrief Type",
+          "column": "Overall: Debrief Type"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "OverallMAFDebriefingGuide",
+        "label": {
+          "default": "Overall: MAF Debriefing Guide?",
+          "criteriaTree": "Overall: MAF Debriefing Guide?",
+          "column": "Overall: MAF Debriefing Guide?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "OverallTEMPerformance",
+        "label": {
+          "default": "Overall: TEM Performance",
+          "criteriaTree": "Overall: TEM Performance",
+          "column": "Overall: TEM Performance"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "ThreatDescription",
+        "label": {
+          "default": "Threat Description: Text Search",
+          "criteriaTree": "Threat Description: Text Search",
+          "column": "Threat Description: Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatManagement",
+        "label": {
+          "default": "Threat Management Description: Text Search",
+          "criteriaTree": "Threat Management Description: Text Search",
+          "column": "Threat Management Description: Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatPhaseOfFlight",
+        "label": {
+          "default": "Phase of Flight: Threat Briefed or Encountered?",
+          "criteriaTree": "Phase of Flight: Threat Briefed or Encountered?",
+          "column": "Phase of Flight: Threat Briefed or Encountered?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatAltitude",
+        "label": {
+          "default": "Threat Altitude",
+          "criteriaTree": "Threat Altitude",
+          "column": "Threat Altitude"
+        },
+        "jsonDataType": "Number",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatType",
+        "label": {
+          "default": "Threat Type",
+          "criteriaTree": "Threat Type",
+          "column": "Threat Type"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatCode",
+        "label": {
+          "default": "Threat Code",
+          "criteriaTree": "Threat Code",
+          "column": "Threat Code"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatOutcome",
+        "label": {
+          "default": "Threat Outcome",
+          "criteriaTree": "Threat Outcome",
+          "column": "Threat Outcome"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ThreatCrewResponse",
+        "label": {
+          "default": "Threat Crew Response",
+          "criteriaTree": "Threat Crew Response",
+          "column": "Threat Crew Response"
+        },
+        "jsonDataType": "String",
+        "entityType": "Threat",
+        "allowedGridColumnEntityTypes": [
+          "Threat"
+        ]
+      },
+      {
+        "key": "ErrorDescription",
+        "label": {
+          "default": "Error Description: Text Search",
+          "criteriaTree": "Error Description: Text Search",
+          "column": "Error Description: Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorManagement",
+        "label": {
+          "default": "Error Management Description: Text Search",
+          "criteriaTree": "Error Management Description: Text Search",
+          "column": "Error Management Description: Text Search"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorPhaseOfFlight",
+        "label": {
+          "default": "Phase of Flight: Error Briefed or Encountered?",
+          "criteriaTree": "Phase of Flight: Error Briefed or Encountered?",
+          "column": "Phase of Flight: Error Briefed or Encountered?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorAltitude",
+        "label": {
+          "default": "Error Altitude",
+          "criteriaTree": "Error Altitude",
+          "column": "Error Altitude"
+        },
+        "jsonDataType": "Number",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorType",
+        "label": {
+          "default": "Error Type",
+          "criteriaTree": "Error Type",
+          "column": "Error Type"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorCode",
+        "label": {
+          "default": "Error Code",
+          "criteriaTree": "Error Code",
+          "column": "Error Code"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorOutcome",
+        "label": {
+          "default": "Error Outcome",
+          "criteriaTree": "Error Outcome",
+          "column": "Error Outcome"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorCrewResponse",
+        "label": {
+          "default": "Error Crew Response",
+          "criteriaTree": "Error Crew Response",
+          "column": "Error Crew Response"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorUASResponse",
+        "label": {
+          "default": "UAS Response",
+          "criteriaTree": "UAS Response",
+          "column": "UAS Response"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorUASDetected",
+        "label": {
+          "default": "Who detected the UAS?",
+          "criteriaTree": "Who detected the UAS?",
+          "column": "Who detected the UAS?"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorUASOutcome",
+        "label": {
+          "default": "UAS Outcome",
+          "criteriaTree": "UAS Outcome",
+          "column": "UAS Outcome"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "ErrorUndesiredAircraftStateType",
+        "label": {
+          "default": "Undesired Aircraft State Type",
+          "criteriaTree": "Undesired Aircraft State Type",
+          "column": "Undesired Aircraft State Type"
+        },
+        "jsonDataType": "String",
+        "entityType": "Error",
+        "allowedGridColumnEntityTypes": [
+          "Error"
+        ]
+      },
+      {
+        "key": "InterviewQuestion1",
+        "label": {
+          "default": "Question 1",
+          "criteriaTree": "Question 1",
+          "column": "Question 1"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      },
+      {
+        "key": "InterviewQuestion2",
+        "label": {
+          "default": "Question 2",
+          "criteriaTree": "Question 2",
+          "column": "Question 2"
+        },
+        "jsonDataType": "String",
+        "entityType": "Observation",
+        "allowedGridColumnEntityTypes": [
+          "Observation"
+        ]
+      }
+    ]
+  },
+  "criteriaTree": {
+    "nodes": [
+      {
+        "key": null,
+        "label": "Flight and Crew Details",
+        "nodeType": "Container",
+        "filterType": "None",
+        "filterDisplayType": "None",
+        "children": [
+          {
+            "key": "FlightNumber",
+            "label": "Flight Number",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NumericRange",
+            "children": null
+          },
+          {
+            "key": "AircraftType",
+            "label": "MWS",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "DepartAirport",
+            "label": "Departure Airport",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ArrivalAirport",
+            "label": "Arrival Airport",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "PilotFlyingTakeoff",
+            "label": "Pilot Flying Takeoff",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "PilotFlyingLanding",
+            "label": "Pilot Flying Landing",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "FlightTime",
+            "label": "Fight Time",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "TimeOfDay",
+            "children": null
+          },
+          {
+            "key": "LateDeparture",
+            "label": "Late Departure",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "CockpitCrewComposition",
+            "label": "Late Departure",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "CrewDutyTime",
+            "label": "Crew Duty Time (# of hours from showtime to cargo offload)",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "MissionAspectAeromedical",
+            "label": "Mission aspect: Aeromedical evacuation?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "MissionAspectAirRefuel",
+            "label": "Mission aspect:  Air refueling?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "MissionAspectPassengers",
+            "label": "Mission aspect: Passengers on board?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "MissionAspectCargo",
+            "label": "Mission aspect:  Cargo on board?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "MissionAspectFormationFly",
+            "label": "Mission aspect:  Formation flying?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "NumberAREvents",
+            "label": "Number of AR events",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "UCC",
+            "label": "UCC?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "AORFlight",
+            "label": "AOR Flight?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": null,
+            "label": "Crew Dynamics",
+            "nodeType": "Container",
+            "filterType": "Attribute",
+            "filterDisplayType": "None",
+            "children": [
+              {
+                "key": "FlightCrewNumber",
+                "label": "Flight Crew Number",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              },
+              {
+                "key": "USAFYearsExperienceAC",
+                "label": "AC: USAF years experience",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              },
+              {
+                "key": "HoursInMWSAC",
+                "label": "AC: Hours in Current MWS",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              },
+              {
+                "key": "USAFYearsExperienceAC",
+                "label": "AC: USAF years experience",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              },
+              {
+                "key": "HoursInCurrentMWSCP",
+                "label": "CP: Hours in Current MWS",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              },
+              {
+                "key": "USAFYearsExperienceFE",
+                "label": "FE: USAF years experience",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              },
+              {
+                "key": "HoursInCurrentMWSFE",
+                "label": "FE: Hours in Current MWS",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "NumericRange",
+                "children": null
+              }
+            ]
+          },
+          {
+            "key": null,
+            "label": "Descent / Approach Details",
+            "nodeType": "Container",
+            "filterType": "Attribute",
+            "filterDisplayType": "None",
+            "children": [
+              {
+                "key": "LandingArrivalWeather",
+                "label": "LandingArrivalWeather",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "LandingApproachType",
+                "label": "Approach Type",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "BriefBeforeTod",
+                "label": "Brief Before TODd?",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "LandingDescendAtTheFmcTodPoint",
+                "label": "Descent at the FMC TOD point?",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "BriefLandingRunway",
+                "label": "Brief landing runway?",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "LandingTouchdownPointFeet",
+                "label": "Landing Touchdown Point (feet)",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              }
+            ]
+          },
+          {
+            "key": null,
+            "label": "Narratives / Ratings",
+            "nodeType": "Container",
+            "filterType": "Attribute",
+            "filterDisplayType": "None",
+            "children": [
+              {
+                "key": null,
+                "label": "All Narratives Text Search",
+                "nodeType": "Leaf",
+                "filterType": "AllNarratives",
+                "filterDisplayType": "NarrativeText",
+                "children": null
+              },
+              {
+                "key": null,
+                "label": "Pre-departure / Taxi Out",
+                "nodeType": "Container",
+                "filterType": "Attribute",
+                "filterDisplayType": "None",
+                "children": [
+                  {
+                    "key": "PredepartNarrative",
+                    "label": "Predepart: Narrative Text Search",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "NarrativeText",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartSopBriefing",
+                    "label": "Predepart: SOP Briefing",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartPlansStated",
+                    "label": "Predepart: Plans Stated",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartContingencyManagement",
+                    "label": "Predepart: Contingency Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartMonitorCrossCheck",
+                    "label": "Predepart: Monitor/Cross-Check",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartWorkloadManagement",
+                    "label": "Predepart: Workload Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartAutomationManagement",
+                    "label": "Predepart: Automation Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartRunwayManagement",
+                    "label": "Predepart: Taxiway/Runway Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartEvaluationOfPlans",
+                    "label": "Predepart: Evaluation of Plans",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "PreDepartInquiry",
+                    "label": "Predepart: Inquiry",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "key": null,
+                "label": "Take-off / Climb",
+                "nodeType": "Container",
+                "filterType": "Attribute",
+                "filterDisplayType": "None",
+                "children": [
+                  {
+                    "key": "TakeoffClimbNarrative",
+                    "label": "Takeoff/Climb: Narrative Text Search",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "NarrativeText",
+                    "children": null
+                  },
+                  {
+                    "key": "TakeoffClimbMonitorCrossCheck",
+                    "label": "Takeoff/Climb: Monitor/Cross-Check",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "TakeoffClimbWorkloadManagement",
+                    "label": "Takeoff/Climb: Workload Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "TakeoffClimbAutomationManagement",
+                    "label": "Takeoff/Climb: Automation Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "TakeoffClimbEvaluationOfPlans",
+                    "label": "Takeoff/Climb: Evaluation of Plans",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "TakeoffClimbInquiry",
+                    "label": "Takeoff/Climb: Inquiry",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "key": null,
+                "label": "Cruise",
+                "nodeType": "Container",
+                "filterType": "Attribute",
+                "filterDisplayType": "None",
+                "children": [
+                  {
+                    "key": "CruiseNarrative",
+                    "label": "Cruise: Narrative Text Search",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "NarrativeText",
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "key": null,
+                "label": "Descent / Approach / Land",
+                "nodeType": "Container",
+                "filterType": "Attribute",
+                "filterDisplayType": "None",
+                "children": [
+                  {
+                    "key": "DescentApproachNarrativeTextSearch",
+                    "label": "Descent/Approach: Narrative Text Search",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "NarrativeText",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachSopBriefing",
+                    "label": "Descent/Approach: SOP Briefing",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachPlansStated",
+                    "label": "Descent/Approach: Plans Stated",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachAutomationManagement",
+                    "label": "Descent/Approach: Contingency Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachMonitorCrossCheck",
+                    "label": "Descent/Approach: Monitor/Cross-Check",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachWorkloadManagement",
+                    "label": "Descent/Approach: Workload Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachAutomationManagement",
+                    "label": "Descent/Approach: Automation Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachRunwayManagement",
+                    "label": "Descent/Approach: Taxiway/Runway Management",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachEvaluationOfPlans",
+                    "label": "Descent/Approach: Evaluation of Plans",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "DescentApproachInquiry",
+                    "label": "Descent/Approach: Inquiry",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "key": null,
+                "label": "Overall",
+                "nodeType": "Container",
+                "filterType": "Attribute",
+                "filterDisplayType": "None",
+                "children": [
+                  {
+                    "key": "OverallNarrative",
+                    "label": "Overall: Narrative Text Search",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "NarrativeText",
+                    "children": null
+                  },
+                  {
+                    "key": "OverallCommunicationEnvironment",
+                    "label": "Overall: Communication Environment",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "OverallCaptainLeadership",
+                    "label": "Overall: Leadership",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "OverallDebriefType",
+                    "label": "Overall: Debrief Type",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "OverallMAFDebriefingGuide",
+                    "label": "Overall: MAF Debriefing Guide?",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  },
+                  {
+                    "key": "OverallTEMPerformance",
+                    "label": "Overall: TEM Performance",
+                    "nodeType": "Leaf",
+                    "filterType": "Attribute",
+                    "filterDisplayType": "ListOfValues",
+                    "children": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": null,
+        "label": "Threats",
+        "nodeType": "Container",
+        "filterType": "Attribute",
+        "filterDisplayType": "None",
+        "children": [
+          {
+            "key": null,
+            "label": "Flight Has Threats?",
+            "nodeType": "Leaf",
+            "filterType": "HasThreats",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ThreatDescription",
+            "label": "Threat Description: Text Search",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NarrativeText",
+            "children": null
+          },
+          {
+            "key": "ThreatManagement",
+            "label": "Threat Management Description: Text Search",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NarrativeText",
+            "children": null
+          },
+          {
+            "key": "ThreatPhaseOfFlight",
+            "label": "Phase of Flight: Threat Briefed or Encountered?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ThreatAltitude",
+            "label": "Threat Altitude",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NumericRange",
+            "children": null
+          },
+          {
+            "key": "ThreatType",
+            "label": "Threat Type",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ThreatCode",
+            "label": "Threat Code",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ThreatOutcome",
+            "label": "Threat Outcome",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ThreatCrewResponse",
+            "label": "Threat Crew Response",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          }
+        ]
+      },
+      {
+        "key": null,
+        "label": "Errors",
+        "nodeType": "Container",
+        "filterType": "Attribute",
+        "filterDisplayType": "None",
+        "children": [
+          {
+            "key": null,
+            "label": "Flight Has Errors?",
+            "nodeType": "Leaf",
+            "filterType": "HasErrors",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorDescription",
+            "label": "Error Description: Text Search",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NarrativeText",
+            "children": null
+          },
+          {
+            "key": "ErrorManagement",
+            "label": "Error Management Description: Text Search",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NarrativeText",
+            "children": null
+          },
+          {
+            "key": "ErrorPhaseOfFlight",
+            "label": "Phase of Flight: Error Briefed or Encountered?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorAltitude",
+            "label": "Error Altitude",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "NumericRange",
+            "children": null
+          },
+          {
+            "key": "ErrorType",
+            "label": "Error Type",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorCode",
+            "label": "Threat Code",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorOutcome",
+            "label": "Error Outcome",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorUndesiredAircraftStateType",
+            "label": "Undesired Aircraft State Type",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorUASResponse",
+            "label": "UAS Response",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorUASDetected",
+            "label": "Who detected the UAS?",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          },
+          {
+            "key": "ErrorUASOutcome",
+            "label": "UAS Outcome",
+            "nodeType": "Leaf",
+            "filterType": "Attribute",
+            "filterDisplayType": "ListOfValues",
+            "children": null
+          }
+        ]
+      },
+      {
+        "key": null,
+        "label": "Crew Interview",
+        "nodeType": "Container",
+        "filterType": "Attribute",
+        "filterDisplayType": "None",
+        "children": [
+          {
+            "key": null,
+            "label": "Question 1",
+            "nodeType": "Container",
+            "filterType": "Attribute",
+            "filterDisplayType": "None",
+            "children": [
+              {
+                "key": "InterviewQuestion1",
+                "label": "Ques 1: Flights with Response",
+                "nodeType": "Leaf",
+                "filterType": "AttributeHasValue",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "InterviewQuestion1",
+                "label": "Ques 1: Response Text Search",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              }
+            ]
+          },
+          {
+            "key": null,
+            "label": "Question 2",
+            "nodeType": "Container",
+            "filterType": "Attribute",
+            "filterDisplayType": "None",
+            "children": [
+              {
+                "key": "InterviewQuestion1",
+                "label": "Ques 2: Flights with Response",
+                "nodeType": "Leaf",
+                "filterType": "AttributeHasValue",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              },
+              {
+                "key": "InterviewQuestion1",
+                "label": "Ques 2: Response Text Search",
+                "nodeType": "Leaf",
+                "filterType": "Attribute",
+                "filterDisplayType": "ListOfValues",
+                "children": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "observationResults": {
+    "defaultColumnSelection": {
+      "entityType": "Observation",
+      "attributes": [
+        {
+          "key": "FlightNumber",
+          "label": {
+            "default": "Flight Number",
+            "criteriaTree": "Flight Number",
+            "column": "Flight Number"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Error",
+            "Observation",
+            "Threat"
+          ]
+        },
+        {
+          "key": "AircraftType",
+          "label": {
+            "default": "MWS",
+            "criteriaTree": "MWS",
+            "column": "MWS"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Error",
+            "Observation",
+            "Threat"
+          ]
+        },
+        {
+          "key": "DepartAirport",
+          "label": {
+            "default": "Departure Airport",
+            "criteriaTree": "Departure Airport",
+            "column": "Departure Airport"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "ArrivalAirport",
+          "label": {
+            "default": "Arrival Airport",
+            "criteriaTree": "Arrival Airport",
+            "column": "Arrival Airport"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PilotFlyingTakeoff",
+          "label": {
+            "default": "Pilot Flying Takeoff",
+            "criteriaTree": "Pilot Flying Takeoff",
+            "column": "Pilot Flying Takeoff"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PilotFlyingLanding",
+          "label": {
+            "default": "Pilot Flying Landing",
+            "criteriaTree": "Pilot Flying Landing",
+            "column": "Pilot Flying Landing"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "FlightTime",
+          "label": {
+            "default": "Fight Time",
+            "criteriaTree": "Fight Time",
+            "column": "Fight Time"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "LateDeparture",
+          "label": {
+            "default": "Late Departure",
+            "criteriaTree": "Late Departure",
+            "column": "Late Departure"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "CockpitCrewComposition",
+          "label": {
+            "default": "Cockpit Crew Composition",
+            "criteriaTree": "Cockpit Crew Composition",
+            "column": "Cockpit Crew Composition"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "CrewDutyTime",
+          "label": {
+            "default": "Crew Duty Time (# of hours from showtime to cargo offload)",
+            "criteriaTree": "Crew Duty Time (# of hours from showtime to cargo offload)",
+            "column": "Crew Duty Time (# of hours from showtime to cargo offload)"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "MissionAspectAeromedical",
+          "label": {
+            "default": "Mission aspect: Aeromedical evacuation?",
+            "criteriaTree": "Mission aspect: Aeromedical evacuation?",
+            "column": "Mission aspect: Aeromedical evacuation?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "MissionAspectAirRefuel",
+          "label": {
+            "default": "Mission aspect:  Air refueling?",
+            "criteriaTree": "Mission aspect:  Air refueling?",
+            "column": "Mission aspect:  Air refueling?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "MissionAspectPassengers",
+          "label": {
+            "default": "Mission aspect: Passengers on board?",
+            "criteriaTree": "Mission aspect: Passengers on board?",
+            "column": "Mission aspect: Passengers on board?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "MissionAspectCargo",
+          "label": {
+            "default": "Mission aspect:  Cargo on board?",
+            "criteriaTree": "Mission aspect:  Cargo on board?",
+            "column": "Mission aspect:  Cargo on board?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "MissionAspectFormationFly",
+          "label": {
+            "default": "Mission aspect:  Formation flying?",
+            "criteriaTree": "Mission aspect:  Formation flying?",
+            "column": "Mission aspect:  Formation flying?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "NumberAREvents",
+          "label": {
+            "default": "Number of AR events",
+            "criteriaTree": "Number of AR events",
+            "column": "Number of AR events"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "UCC",
+          "label": {
+            "default": "UCC?",
+            "criteriaTree": "UCC?",
+            "column": "UCC?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "AORFlight",
+          "label": {
+            "default": "AOR Flight?",
+            "criteriaTree": "AOR Flight?",
+            "column": "AOR Flight?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "FlightCrewNumber",
+          "label": {
+            "default": "Flight Crew Number",
+            "criteriaTree": "Flight Crew Number",
+            "column": "Flight Crew Number"
+          },
+          "jsonDataType": "Number",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "USAFYearsExperienceAC",
+          "label": {
+            "default": "AC: USAF years experience",
+            "criteriaTree": "AC: USAF years experience",
+            "column": "AC: USAF years experience"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "HoursInMWSAC",
+          "label": {
+            "default": "AC: Hours in Current MWS",
+            "criteriaTree": "AC: Hours in Current MWS",
+            "column": "AC: Hours in Current MWS"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "USAFYearsExperienceAC",
+          "label": {
+            "default": "CP: USAF years experience",
+            "criteriaTree": "CP: USAF years experience",
+            "column": "CP: USAF years experience"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "HoursInCurrentMWSCP",
+          "label": {
+            "default": "CP: Hours in Current MWS",
+            "criteriaTree": "CP: Hours in Current MWS",
+            "column": "CP: Hours in Current MWS"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "USAFYearsExperienceFE",
+          "label": {
+            "default": "FE: USAF years experience",
+            "criteriaTree": "FE: USAF years experience",
+            "column": "FE: USAF years experience"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "HoursInCurrentMWSFE",
+          "label": {
+            "default": "FE: Hours in Current MWS",
+            "criteriaTree": "FE: Hours in Current MWS",
+            "column": "FE: Hours in Current MWS"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "LandingArrivalWeather",
+          "label": {
+            "default": "LandingArrivalWeather",
+            "criteriaTree": "LandingArrivalWeather",
+            "column": "LandingArrivalWeather"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "LandingApproachType",
+          "label": {
+            "default": "Approach Type",
+            "criteriaTree": "Approach Type",
+            "column": "Approach Type"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "BriefBeforeTod",
+          "label": {
+            "default": "Brief Before TODd?",
+            "criteriaTree": "Brief Before TODd?",
+            "column": "Brief Before TODd?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "LandingDescendAtTheFmcTodPoint",
+          "label": {
+            "default": "Descent at the FMC TOD point?",
+            "criteriaTree": "Descent at the FMC TOD point?",
+            "column": "Descent at the FMC TOD point?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "BriefLandingRunway",
+          "label": {
+            "default": "Brief landing runway?",
+            "criteriaTree": "Brief landing runway?",
+            "column": "Brief landing runway?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "LandingTouchdownPointFeet",
+          "label": {
+            "default": "Landing Touchdown Point (feet)",
+            "criteriaTree": "Landing Touchdown Point (feet)",
+            "column": "Landing Touchdown Point (feet)"
+          },
+          "jsonDataType": "Number",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PredepartNarrative",
+          "label": {
+            "default": "Predepart: Narrative Text Search",
+            "criteriaTree": "Predepart: Narrative Text Search",
+            "column": "Predepart: Narrative Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartSopBriefing",
+          "label": {
+            "default": "Predepart: SOP Briefing",
+            "criteriaTree": "Predepart: SOP Briefing",
+            "column": "Predepart: SOP Briefing"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartPlansStated",
+          "label": {
+            "default": "Predepart: Plans Stated",
+            "criteriaTree": "Predepart: Plans Stated",
+            "column": "Predepart: Plans Stated"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartContingencyManagement",
+          "label": {
+            "default": "Predepart: Contingency Management",
+            "criteriaTree": "Predepart: Contingency Management",
+            "column": "Predepart: Contingency Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartMonitorCrossCheck",
+          "label": {
+            "default": "Predepart: Monitor/Cross-Check",
+            "criteriaTree": "Predepart: Monitor/Cross-Check",
+            "column": "Predepart: Monitor/Cross-Check"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartWorkloadManagement",
+          "label": {
+            "default": "Predepart: Workload Management",
+            "criteriaTree": "Predepart: Workload Management",
+            "column": "Predepart: Workload Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartAutomationManagement",
+          "label": {
+            "default": "Predepart: Automation Management",
+            "criteriaTree": "Predepart: Automation Management",
+            "column": "Predepart: Automation Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartRunwayManagement",
+          "label": {
+            "default": "Predepart: Taxiway/Runway Management",
+            "criteriaTree": "Predepart: Taxiway/Runway Management",
+            "column": "Predepart: Taxiway/Runway Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartEvaluationOfPlans",
+          "label": {
+            "default": "Predepart: Evaluation of Plans",
+            "criteriaTree": "Predepart: Evaluation of Plans",
+            "column": "Predepart: Evaluation of Plans"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "PreDepartInquiry",
+          "label": {
+            "default": "Predepart: Inquiry",
+            "criteriaTree": "Predepart: Inquiry",
+            "column": "Predepart: Inquiry"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "TakeoffClimbAutomationManagement",
+          "label": {
+            "default": "Takeoff/Climb: Automation Management",
+            "criteriaTree": "Takeoff/Climb: Automation Management",
+            "column": "Takeoff/Climb: Automation Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "TakeoffClimbEvaluationOfPlans",
+          "label": {
+            "default": "Takeoff/Climb: Evaluation of Plans",
+            "criteriaTree": "Takeoff/Climb: Evaluation of Plans",
+            "column": "Takeoff/Climb: Evaluation of Plans"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "TakeoffClimbInquiry",
+          "label": {
+            "default": "Takeoff/Climb: Inquiry",
+            "criteriaTree": "Takeoff/Climb: Inquiry",
+            "column": "Takeoff/Climb: Inquiry"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "TakeoffClimbMonitorCrossCheck",
+          "label": {
+            "default": "Takeoff/Climb: Monitor/Cross-Check",
+            "criteriaTree": "Takeoff/Climb: Monitor/Cross-Check",
+            "column": "Takeoff/Climb: Monitor/Cross-Check"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "TakeoffClimbNarrative",
+          "label": {
+            "default": "Takeoff/Climb: Narrative Text Search",
+            "criteriaTree": "Takeoff/Climb: Narrative Text Search",
+            "column": "Takeoff/Climb: Narrative Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "TakeoffClimbWorkloadManagement",
+          "label": {
+            "default": "Takeoff/Climb: Workload Management",
+            "criteriaTree": "Takeoff/Climb: Workload Management",
+            "column": "Takeoff/Climb: Workload Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "CruiseNarrative",
+          "label": {
+            "default": "Cruise: Narrative Text Search",
+            "criteriaTree": "Cruise: Narrative Text Search",
+            "column": "Cruise: Narrative Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachAutomationManagement",
+          "label": {
+            "default": "Descent/Approach: Automation Management",
+            "criteriaTree": "Descent/Approach: Automation Management",
+            "column": "Descent/Approach: Automation Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachAutomationManagement",
+          "label": {
+            "default": "Descent/Approach: Contingency Management",
+            "criteriaTree": "Descent/Approach: Contingency Management",
+            "column": "Descent/Approach: Contingency Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachEvaluationOfPlans",
+          "label": {
+            "default": "Descent/Approach: Evaluation of Plans",
+            "criteriaTree": "Descent/Approach: Evaluation of Plans",
+            "column": "Descent/Approach: Evaluation of Plans"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachInquiry",
+          "label": {
+            "default": "Descent/Approach: Inquiry",
+            "criteriaTree": "Descent/Approach: Inquiry",
+            "column": "Descent/Approach: Inquiry"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachMonitorCrossCheck",
+          "label": {
+            "default": "Descent/Approach: Monitor/Cross-Check",
+            "criteriaTree": "Descent/Approach: Monitor/Cross-Check",
+            "column": "Descent/Approach: Monitor/Cross-Check"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachNarrativeTextSearch",
+          "label": {
+            "default": "Descent/Approach: Narrative Text Search",
+            "criteriaTree": "Descent/Approach: Narrative Text Search",
+            "column": "Descent/Approach: Narrative Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachPlansStated",
+          "label": {
+            "default": "Descent/Approach: Plans Stated",
+            "criteriaTree": "Descent/Approach: Plans Stated",
+            "column": "Descent/Approach: Plans Stated"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachRunwayManagement",
+          "label": {
+            "default": "Descent/Approach: Taxiway/Runway Management",
+            "criteriaTree": "Descent/Approach: Taxiway/Runway Management",
+            "column": "Descent/Approach: Taxiway/Runway Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachSopBriefing",
+          "label": {
+            "default": "Descent/Approach: SOP Briefing",
+            "criteriaTree": "Descent/Approach: SOP Briefing",
+            "column": "Descent/Approach: SOP Briefing"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "DescentApproachWorkloadManagement",
+          "label": {
+            "default": "Descent/Approach: Workload Management",
+            "criteriaTree": "Descent/Approach: Workload Management",
+            "column": "Descent/Approach: Workload Management"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "OverallCaptainLeadership",
+          "label": {
+            "default": "Overall: Leadership",
+            "criteriaTree": "Overall: Leadership",
+            "column": "Overall: Leadership"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "OverallCommunicationEnvironment",
+          "label": {
+            "default": "Overall: Communication Environment",
+            "criteriaTree": "Overall: Communication Environment",
+            "column": "Overall: Communication Environment"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "OverallNarrative",
+          "label": {
+            "default": "Overall: Narrative Text Search",
+            "criteriaTree": "Overall: Narrative Text Search",
+            "column": "Overall: Narrative Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "OverallDebriefType",
+          "label": {
+            "default": "Overall: Debrief Type",
+            "criteriaTree": "Overall: Debrief Type",
+            "column": "Overall: Debrief Type"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "OverallMAFDebriefingGuide",
+          "label": {
+            "default": "Overall: MAF Debriefing Guide?",
+            "criteriaTree": "Overall: MAF Debriefing Guide?",
+            "column": "Overall: MAF Debriefing Guide?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "OverallTEMPerformance",
+          "label": {
+            "default": "Overall: TEM Performance",
+            "criteriaTree": "Overall: TEM Performance",
+            "column": "Overall: TEM Performance"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "InterviewQuestion1",
+          "label": {
+            "default": "Question 1",
+            "criteriaTree": "Question 1",
+            "column": "Question 1"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        },
+        {
+          "key": "InterviewQuestion2",
+          "label": {
+            "default": "Question 2",
+            "criteriaTree": "Question 2",
+            "column": "Question 2"
+          },
+          "jsonDataType": "String",
+          "entityType": "Observation",
+          "allowedGridColumnEntityTypes": [
+            "Observation"
+          ]
+        }
+      ]
+    },
+    "tabLayout": {
+      "headerFields": [
+        {
+          "attribute": {
+            "key": "FlightNumber",
+            "label": {
+              "default": "Flight Number",
+              "criteriaTree": "Flight Number",
+              "column": "Flight Number"
+            },
+            "jsonDataType": "String",
+            "entityType": "Observation",
+            "allowedGridColumnEntityTypes": [
+              "Error",
+              "Observation",
+              "Threat"
+            ]
+          },
+          "includeLabel": false
+        },
+        {
+          "attribute": {
+            "key": "AircraftType",
+            "label": {
+              "default": "MWS",
+              "criteriaTree": "MWS",
+              "column": "MWS"
+            },
+            "jsonDataType": "String",
+            "entityType": "Observation",
+            "allowedGridColumnEntityTypes": [
+              "Error",
+              "Observation",
+              "Threat"
+            ]
+          },
+          "includeLabel": false
+        },
+        {
+          "attribute": {
+            "key": "DepartAirport",
+            "label": {
+              "default": "Departure Airport",
+              "criteriaTree": "Departure Airport",
+              "column": "Departure Airport"
+            },
+            "jsonDataType": "String",
+            "entityType": "Observation",
+            "allowedGridColumnEntityTypes": [
+              "Observation"
+            ]
+          },
+          "includeLabel": false
+        },
+        {
+          "attribute": {
+            "key": "ArrivalAirport",
+            "label": {
+              "default": "Arrival Airport",
+              "criteriaTree": "Arrival Airport",
+              "column": "Arrival Airport"
+            },
+            "jsonDataType": "String",
+            "entityType": "Observation",
+            "allowedGridColumnEntityTypes": [
+              "Observation"
+            ]
+          },
+          "includeLabel": true
+        },
+        {
+          "attribute": {
+            "key": "PilotFlyingTakeoff",
+            "label": {
+              "default": "Pilot Flying Takeoff",
+              "criteriaTree": "Pilot Flying Takeoff",
+              "column": "Pilot Flying Takeoff"
+            },
+            "jsonDataType": "String",
+            "entityType": "Observation",
+            "allowedGridColumnEntityTypes": [
+              "Observation"
+            ]
+          },
+          "includeLabel": true
+        },
+        {
+          "attribute": {
+            "key": "PilotFlyingLanding",
+            "label": {
+              "default": "Pilot Flying Landing",
+              "criteriaTree": "Pilot Flying Landing",
+              "column": "Pilot Flying Landing"
+            },
+            "jsonDataType": "String",
+            "entityType": "Observation",
+            "allowedGridColumnEntityTypes": [
+              "Observation"
+            ]
+          },
+          "includeLabel": true
+        }
+      ],
+      "tabs": []
+    },
+    "entityType": "Observation"
+  },
+  "threatResults": {
+    "defaultColumnSelection": {
+      "entityType": "Threat",
+      "attributes": [
+        {
+          "key": "ThreatDescription",
+          "label": {
+            "default": "Threat Description: Text Search",
+            "criteriaTree": "Threat Description: Text Search",
+            "column": "Threat Description: Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatManagement",
+          "label": {
+            "default": "Threat Management Description: Text Search",
+            "criteriaTree": "Threat Management Description: Text Search",
+            "column": "Threat Management Description: Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatPhaseOfFlight",
+          "label": {
+            "default": "Phase of Flight: Threat Briefed or Encountered?",
+            "criteriaTree": "Phase of Flight: Threat Briefed or Encountered?",
+            "column": "Phase of Flight: Threat Briefed or Encountered?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatAltitude",
+          "label": {
+            "default": "Threat Altitude",
+            "criteriaTree": "Threat Altitude",
+            "column": "Threat Altitude"
+          },
+          "jsonDataType": "Number",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatType",
+          "label": {
+            "default": "Threat Type",
+            "criteriaTree": "Threat Type",
+            "column": "Threat Type"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatCode",
+          "label": {
+            "default": "Threat Code",
+            "criteriaTree": "Threat Code",
+            "column": "Threat Code"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatOutcome",
+          "label": {
+            "default": "Threat Outcome",
+            "criteriaTree": "Threat Outcome",
+            "column": "Threat Outcome"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        },
+        {
+          "key": "ThreatCrewResponse",
+          "label": {
+            "default": "Threat Crew Response",
+            "criteriaTree": "Threat Crew Response",
+            "column": "Threat Crew Response"
+          },
+          "jsonDataType": "String",
+          "entityType": "Threat",
+          "allowedGridColumnEntityTypes": [
+            "Threat"
+          ]
+        }
+      ]
+    },
+    "tabLayout": null,
+    "entityType": "Threat"
+  },
+  "errorResults": {
+    "defaultColumnSelection": {
+      "entityType": "Error",
+      "attributes": [
+        {
+          "key": "ErrorDescription",
+          "label": {
+            "default": "Error Description: Text Search",
+            "criteriaTree": "Error Description: Text Search",
+            "column": "Error Description: Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorManagement",
+          "label": {
+            "default": "Error Management Description: Text Search",
+            "criteriaTree": "Error Management Description: Text Search",
+            "column": "Error Management Description: Text Search"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorPhaseOfFlight",
+          "label": {
+            "default": "Phase of Flight: Error Briefed or Encountered?",
+            "criteriaTree": "Phase of Flight: Error Briefed or Encountered?",
+            "column": "Phase of Flight: Error Briefed or Encountered?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorAltitude",
+          "label": {
+            "default": "Error Altitude",
+            "criteriaTree": "Error Altitude",
+            "column": "Error Altitude"
+          },
+          "jsonDataType": "Number",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorType",
+          "label": {
+            "default": "Error Type",
+            "criteriaTree": "Error Type",
+            "column": "Error Type"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorCode",
+          "label": {
+            "default": "Error Code",
+            "criteriaTree": "Error Code",
+            "column": "Error Code"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorOutcome",
+          "label": {
+            "default": "Error Outcome",
+            "criteriaTree": "Error Outcome",
+            "column": "Error Outcome"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorCrewResponse",
+          "label": {
+            "default": "Error Crew Response",
+            "criteriaTree": "Error Crew Response",
+            "column": "Error Crew Response"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorUASResponse",
+          "label": {
+            "default": "UAS Response",
+            "criteriaTree": "UAS Response",
+            "column": "UAS Response"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorUASDetected",
+          "label": {
+            "default": "Who detected the UAS?",
+            "criteriaTree": "Who detected the UAS?",
+            "column": "Who detected the UAS?"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorUASOutcome",
+          "label": {
+            "default": "UAS Outcome",
+            "criteriaTree": "UAS Outcome",
+            "column": "UAS Outcome"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        },
+        {
+          "key": "ErrorUndesiredAircraftStateType",
+          "label": {
+            "default": "Undesired Aircraft State Type",
+            "criteriaTree": "Undesired Aircraft State Type",
+            "column": "Undesired Aircraft State Type"
+          },
+          "jsonDataType": "String",
+          "entityType": "Error",
+          "allowedGridColumnEntityTypes": [
+            "Error"
+          ]
+        }
+      ]
+    },
+    "tabLayout": null,
+    "entityType": "Error"
+  }
+}
